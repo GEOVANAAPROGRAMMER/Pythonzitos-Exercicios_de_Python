@@ -6,6 +6,12 @@ while i >= 0:
 
 print("--------------------------------")
 
+# Convertendo String em inteiro
+a = int(input("Digite um número: "))
+print(len(str(a)))
+
+print("--------------------------------")
+
 senha_correta = "python123"
 senha = input("Digite a senha: ")
 while senha != senha_correta:
